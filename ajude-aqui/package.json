@@ -2,20 +2,30 @@
   "name": "ajude-aqui",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@supabase/supabase-js": "^2.46.2",
+    "localbase": "^0.7.7",
     "pinia": "^2.2.6",
+    "roboto-fontface": "*",
+    "supabase": "^1.226.3",
+    "uuid": "^11.0.3",
     "vue": "^3.5.13",
-    "vue-router": "^4.4.5"
+    "vue-router": "^4.4.5",
+    "vuetify": "^3.7.4",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
     "vite": "^6.0.1",
-    "vite-plugin-vue-devtools": "^7.6.5"
-  }
+    "vite-plugin-vue-devtools": "^7.6.5",
+    "vue-cli-plugin-vuetify": "^2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  },
+  "type": "module"
 }
