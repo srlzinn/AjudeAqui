@@ -13,7 +13,7 @@
       <v-tab value="contraties"> Contratações </v-tab>
     </RouterLink>
   </v-tabs>
-  <RouterView/> 
+   <RouterView></RouterView>
 </template>
 
 <script setup lang="ts">
