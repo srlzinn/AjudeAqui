@@ -10,7 +10,7 @@ loadFonts()
 
 createApp(App)
   .use(router)
-  .use(vuetify)
   .use(supabase)
+  .use(vuetify)
   .provide("$banco", new GerenciadorDeRepositorios())
   .mount('#app')
