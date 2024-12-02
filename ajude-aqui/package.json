@@ -1,0 +1,30 @@
+{
+  "name": "ajude-aqui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vuetify": "^3.7.3"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/fonts": "^0.10.0",
+    "@vuetify/loader-shared": "^2.0.3",
+    "sass-embedded": "^1.80.3",
+    "typescript": "^5.6.3",
+    "upath": "^2.0.1",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-tsc": "^2.1.6"
+  }
+}
