@@ -18,7 +18,7 @@ export default class {
   }
   //"obterItem" é uma função que retorna o resultado/item 
   getItemEspecifico(id, obterItem) {
-    return this.db.collection(tableName).doc(id).get().then(
+    return this.db.collection(this.nomeDoModelo).doc(id).get().then(
       it => {
         obterItem(it)
       }
@@ -26,10 +26,12 @@ export default class {
   }
   criar(modelo, obterModelCriado) {
     modelo.id = useUuid();
-    this.db.collection(tableName).add(modelo, modelo.id).then(
+    this.db.collection(this.nomeDoModelo).add(modelo, modelo.id).then(
       it => {
         obterModelCriado(it.data.data);
       }
     );
   }
 }
+
+
